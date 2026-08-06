@@ -51,6 +51,7 @@ First, install Octane in your Laravel application:
 
 ```bash [Terminal]
 docker compose run php composer require laravel/octane
+docker compose run php artisan octane:install --server=frankenphp
 ```
 
 When that command runs, you should see a PHP file that Laravel creates in your `/public` directory. This is required for Laravel Octane to work.
